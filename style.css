@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #1c1e2e;
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #c98f49;
+  padding: 10px 0 0 0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Grenze Gotisch";
+  gap: 10px;
+}
+
+h2{
+    color: white;
+    margin-top: 32px;
+}
+.heading2 {
+  display: flex;
+  color: white;
+  gap: 6px;
+  font-family: "Grenze Gotisch";
+  justify-content: center;
+  font-size: 12px;
+}
+.heading img {
+  width: 14%;
+}
+
+.heading h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.header:after {
+  content: " ";
+  display: block;
+  border-bottom: 4px solid #ffffff;
+  margin-top: 4px;
+  border-style: double;
+}
+.form-container {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container p {
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container input {
+  min-width: 280px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: #c98f49;
+  color: white;
+  font-family: "Poppins";
+}
+input::placeholder {
+  font-style: italic;
+}
+.date-time-box button {
+  font-family: "Poppins";
+}
+
+.choose {
+  color: white;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.date {
+  display: flex;
+  gap: 6px;
+  background-color: #c98f49;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.date button {
+  width: 48px;
+  height: 66px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.date button p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.date button:hover {
+  color: white;
+}
+.date button.active {
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+}
+.time {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 350px;
+  background-color: #1c1e2e;
+  margin-top: 10px;
+}
+
+.time button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.time button.active {
+  background-color: #c98f49;
+}
+
+.time button:hover {
+  background-color: #c98f49;
+}
+
+.barber-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+.barber-box img {
+  max-width: 36%;
+}
+
+.barber-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: #c98f49;
+  padding: 8px;
+  border-radius: 6px;
+  gap: 9px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.rating {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.barber-card input{
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #111;
+}
+
+.service-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #c98f49;
+  padding: 10px 34px;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+
+}
+
+.service-card span{
+  color: #c98f49;
+  font-size: 22px;
+}
+
+.service-box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+h3{
+  color: white;
+  margin-top: 20px;
+}
+
+h3 span{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.payment{
+  display: flex;
+  flex-direction: column;
+}
+
+.process-btn{
+  padding: 6px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: #c98f49;
+  color: white;
+  border-color: white;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.opening{
+  color: white;
+  font-size: 16px;
+  margin: 28px 0px;
+
+}
+
+.identity{
+  margin-bottom: 32px;
+}
+.identity p {
+  display: flex;
+  color: white;
+  margin-bottom: 2px;
+}
+.closing {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  width: 100px; /* Adjust width as needed */
+}
+
+.colon {
+  width: 20px;
+  text-align: center;
+}

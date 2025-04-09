@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fandi Fade House - Booking</title>
+    <link rel="icon" href="scissors_1658136.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <id class="container">
+      <div class="header">
+        <div class="heading">
+          <img src="logo.png" alt="" />
+          <h1>Fandi Fade House</h1>
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="heading2">
+          <p>-Botania, Nagoya, Punggur, Kabil, Bengkong-</p>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <p>Please fill the field below to appointment</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="fandy" />
+          </div>
+
+          <div class="form-group">
+            <label for="number">WhatsApp:</label>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              placeholder="08123456789"
+            />
+          </div>
+        </form>
+      </div>
+<div class="date-time-box">
+  <p class="choose">Choose your slot and time:</p>
+      <div class="date">
+        <button class="date-btn active" data-value="Mon 23"><p>Mon</p>23</button>
+        <button class="date-btn" data-value="Tue 24"><p>Tue</p>24</button>
+        <button class="date-btn" data-value="Wed 25"><p>Wed</p>25</button>
+        <button class="date-btn" data-value="Thu 26"><p>Thu</p>26</button>
+        <button class="date-btn" data-value="Fri 27"><p>Fri</p>27</button>
+        <button class="date-btn" data-value="Sat 28"><p>Sat</p>28</button>
+      </div>
+
+      <div class="time">
+        <button class="time-btn" data-value="10 am">10 am</button>
+        <button class="time-btn" data-value="11 am">11 am</button>
+        <button class="time-btn" data-value="1 pm">1 pm</button>
+        <button class="time-btn active" data-value="2 pm">2 pm</button>
+        <button class="time-btn" data-value="3 pm">3 pm</button>
+        <button class="time-btn" data-value="5 pm">5 pm</button>
+        <button class="time-btn" data-value="6 pm">6 pm</button>
+        <button class="time-btn" data-value="8 pm">8 pm</button>
+        <button class="time-btn" data-value="10 pm">10 pm</button>
+      </div>
+    </div>
+
+    <h2>Choose your Barber:</h2>
+
+    <div class="barber-box">
+      <div class="barber-card">
+        <input type="radio" id="radio1" name="selection" value="Gabriel" checked>
+
+        <img src="1.png" alt="">
+        <div>
+        <p>Gabriel</p>
+        <p class="rating">⭐ 4.7</p>
+      </div>
+      </div>
+
+      <div class="barber-card">
+        <input type="radio" id="radio2" name="selection" value="Kevin">
+
+        <img src="2.png" alt="">
+        <div>
+        <p>Kevin Doe</p>
+        <p class="rating">⭐ 4.8</p>
+      </div>
+      </div>
+
+      <div class="barber-card">
+        <input type="radio" id="radio3" name="selection" value="Momota">
+
+        <img src="3.png" alt="">
+        <div>
+        <p>Momota</p>
+        <p class="rating">⭐ 4.7</p>
+      </div>
+      </div>
+
+      <div class="barber-card">
+        <input type="radio" id="radio4" name="selection" value="Felipe">
+        <img src="4.png" alt="">
+        <div>
+        <p>Felipe Chloe</p>
+        <p class="rating">⭐ 4.9</p>
+      </div>
+      </div>
+
+    </div>
+
+    <h2>Choose Service:</h2>
+    <div class="service-box">
+      <div class="service-card">
+        <img src="Comp 2 (0;00;27;07).jpg" alt="">
+        <label for="haircut">Haircut <span>12$</span></label>
+        <input type="checkbox" id="haircut" data-name="Haircut" class="checkbox" value="12" name="services" >
+
+      </div>
+      <div class="service-card">
+        <img src="ee.jpg" alt="">
+        <label for="shaving">Shaving <span>5$</span></label>
+        <input type="checkbox" id="shaving" data-name="Shaving" class="checkbox" value="5" name="services">
+
+      </div>
+      <div class="service-card">
+        <img src="ww.jpg" alt="">
+        <label for="massage">Massage <span>8$</span></label>
+        <input type="checkbox" id="massage" data-name="Massage" class="checkbox" value="8" name="services" >
+
+      </div>
+
+    </div>
+    <h3>Total payment: <span id="total">0$</span></h3>
+   <button class="process-btn">Process</button>
+    </id>
+    <script src="main.js"></script>
+  </body>
+</html>
