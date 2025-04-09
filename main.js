@@ -70,7 +70,7 @@ processBtn.addEventListener("click", function () {
   const stringifiedAppointmentData = JSON.stringify(appointmentData);
   localStorage.setItem('appointment-data', stringifiedAppointmentData);
     
-  document.location.replace("https://barber-booking-app-nine.vercel.app/index2.html");
+  document.location.replace("https://barber-booking-five.vercel.app/index2.html");
 });
 
 
